@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "bio": "CIP119:bio",
+        "email": "CIP119:email",
+        "givenName": "CIP119:givenName",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a401010327200621582020f05b7db35fbe9d7de7344df69cc0d686d2b5eded9d283b1d2e05670cb42cf4"
+        },
+        "signature": {
+          "@value": "84582aa201276761646472657373581d618c32ae74f618b4721e69891630482108746c4d96859d6597689661ada166686173686564f45844566572696679204452657020647265703178386b73726e667673646638776676737832703766656634367a7332767139366b6776676b706b396e6530716b716c366c6a6358404a225b612704ce56d50823d9300cf2847210f94fe9c4c95e0f1989d275e171e4f349d9b7c551887c78c5e64d3ee08167dce79f81f39c105ff6ae4ced2da7e009"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "bio": {
+      "@value": "Cardano Ambassador | Founder of Cardano Curation | Advocate for Cardano Adoption & Governance | Member of Cardano Paraguay, an Intersect Hub"
+    },
+    "email": {
+      "@value": "cardanocuration@gmail.com"
+    },
+    "givenName": {
+      "@value": "Caleb Montiel"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://ipfs.io/ipfs/QmRK94D48F93j3hj9nAUxgzaGUGkohDGyZJcqteXq9bgnR",
+      "sha256": "cdb7ce2d8038204a1d48415a26e0841bdbf0370cbab8d1d092c0f51bed9c71c8"
+    },
+    "motivations": {
+      "@value": "Since watching Charles' iconic whiteboard video, a burning desire sparked within me to change the world by building decentralized infrastructures that offer transparency, equal opportunity, and sovereignty to billions of people worldwide. Today, my focus is on driving adoption in my home country, Paraguay, through universities, private businesses, and government initiatives."
+    },
+    "objectives": {
+      "@value": "• Ensuring the long-term sustainability of our treasury by advocating for a more conservative spending budget.\n\n• Pushing for the adoption of our technology in universities, private businesses, and governments through meaningful partnerships.\n\n• Getting the community more involved by making sure everyone has the knowledge and tools they need to take part in Carrano's governance through transparency and education."
+    },
+    "paymentAddress": {
+      "@value": "addr1qxxr9tn57cvtgus7dxy3vvzgyyy8gmzdj6ze6evhdztxrttgvsm2aahvhjkq8898wl78dzsuud5nfz034kzusyyq6m3sxp2t6y"
+    },
+    "qualifications": {
+      "@value": "I’ve been actively involved in the Cardano ecosystem since 2021. I hold a Bachelor's degree in Business Administration from Liberty University and have over four years of professional experience in the insurance industry in North America. Additionally, I founded and currently run Cardano Curation, a Media & News company dedicated to the Cardano ecosystem."
+    },
+    "references": [
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Twitter"
+        },
+        "uri": {
+          "@value": "https://x.com/CalebMontiel_"
+        }
+      }
+    ]
+  }
+}
