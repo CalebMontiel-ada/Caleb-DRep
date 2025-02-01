@@ -8,6 +8,7 @@
       "@id": "CIP119:body",
       "@context": {
         "bio": "CIP119:bio",
+        "doNotList": "CIP119:doNotList",
         "email": "CIP119:email",
         "givenName": "CIP119:givenName",
         "motivations": "CIP119:motivations",
@@ -58,11 +59,8 @@
   "authors": [
     {
       "witness": {
-        "publicKey": {
-          "@value": "a401010327200621582020f05b7db35fbe9d7de7344df69cc0d686d2b5eded9d283b1d2e05670cb42cf4"
-        },
         "signature": {
-          "@value": "84582aa201276761646472657373581d618c32ae74f618b4721e69891630482108746c4d96859d6597689661ada166686173686564f45844566572696679204452657020647265703178386b73726e667673646638776676737832703766656634367a7332767139366b6776676b706b396e6530716b716c366c6a6358404a225b612704ce56d50823d9300cf2847210f94fe9c4c95e0f1989d275e171e4f349d9b7c551887c78c5e64d3ee08167dce79f81f39c105ff6ae4ced2da7e009"
+          "@value": "845829a201276761646472657373581c31ed01cd2c83527725903283e4e535d0a0a600bab2188b06c59e5e0ba166686173686564f45844566572696679204452657020647265703178386b73726e667673646638776676737832703766656634367a7332767139366b6776676b706b396e6530716b716c366c6a63584077ebd4941d6665effb05ebe3ee35d4a6aaa512727f8b7d81515f49d54825b8e95d4765c064d0d8b85e947e3864e3ef087165d76a77b264f3484c574247706109"
         },
         "witnessAlgorithm": {
           "@value": "Ed25519"
@@ -75,7 +73,10 @@
   },
   "body": {
     "bio": {
-      "@value": "Cardano Ambassador | Founder of Cardano Curation | Advocate for Cardano Adoption & Governance | Member of Cardano Paraguay, an Intersect Hub"
+      "@value": "Cardano Ambassador 🌐 | Founder of Cardano Curation ©️ | Advocate for Cardano Adoption & Governance 🏛️ | Member of Cardano Paraguay 🇵🇾 | Follower of Jesus ✝️"
+    },
+    "doNotList": {
+      "@value": "false"
     },
     "email": {
       "@value": "cardanocuration@gmail.com"
@@ -107,7 +108,7 @@
           "@value": "Twitter"
         },
         "uri": {
-          "@value": "https://x.com/CalebMontiel_"
+          "@value": "calebmontiel_"
         }
       }
     ]
